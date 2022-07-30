@@ -35,7 +35,7 @@
     background-color:#343a40
     }  
 .header{
-            background-image: url('./images/header_back.jpg');
+            background-image: url('../images/header_back.jpg');
             background-attachment: fixed;
             background-size: cover;
             background-position: center;

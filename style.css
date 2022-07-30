@@ -93,18 +93,20 @@
         color: #888;
         position: absolute;
         left: 10px;
-        bottom:30px;
+        /* bottom:20px; */
        }
        .about .desc{
         padding: 2em;
         border-left:4px solid #10828C;
        }
-       .about .desc h3{
-        color: #10828C;
+       .about .desc h1{
+        color:#7350a1;
+    
        }
        .about .desc p{
         line-height:2;
         color:#888;
+        text-align: justify;
        }
       
 /*Portfolio*/
@@ -115,7 +117,7 @@
    }
    .portfolio h1{
     color:#7350a1;
-    margin: 2em;
+     padding: 2em;
    }
    .portfolio img{
    height: 15rem;
@@ -123,7 +125,7 @@
    margin: 1em;
    }
  /*blog*/
- .blog{
+.blog{
     margin: 4em 0;
     position: relative;
   
@@ -144,7 +146,10 @@
    }
    .blog .card-body{
     padding: 1em;
-   } 
+     } 
+    .blog .card-footer {
+    margin: unset;
+    } 
 /*Team*/
 .team{
     margin: 4em 1em;

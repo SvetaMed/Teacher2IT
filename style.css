@@ -193,10 +193,28 @@
     max-width: 600px;
    }
    .contact-form .right .btn-secondary{
-    background: #7350a1;
+    background: #300f3f;
     color: #fff;
     border:0;
    }
    .contact-form .right .form-control::placeholder{
     color: #888;
-    font-size: 16px; }       
+    font-size: 16px; }     
+    
+    /* footer*******************/
+.footer {
+    background: #300f3f;
+}
+.footer__inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.footer__copyright {
+    padding: 10px 0 0 10px;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
